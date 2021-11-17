@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Authorization</servlet-name>
+  	<display-name>Authorization</display-name>
+  	<description></description>
+  	<servlet-class>web.controller.Authorization</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Registration</servlet-name>
+  	<display-name>Registration</display-name>
+  	<description></description>
+  	<servlet-class>web.controller.Registration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Cart</servlet-name>
+  	<display-name>Cart</display-name>
+  	<description></description>
+  	<servlet-class>web.controller.Cart</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Products</servlet-name>
+  	<display-name>Products</display-name>
+  	<description></description>
+  	<servlet-class>web.controller.Products</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Product</servlet-name>
+  	<display-name>Product</display-name>
+  	<description></description>
+  	<servlet-class>web.controller.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Authorization</servlet-name>
+  	<url-pattern>/authorization</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Registration</servlet-name>
+  	<url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Cart</servlet-name>
+  	<url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Products</servlet-name>
+  	<url-pattern>/products</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Product</servlet-name>
+  	<url-pattern>/product</url-pattern>
+  </servlet-mapping>
+</web-app>
